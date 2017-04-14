@@ -1,6 +1,10 @@
 import pandas as pd
 import quandl
 
+#testing
+
+#series 1
+
 quandl.ApiConfig.api_key = 'Z7h-s84v8y2yMti5s1xB'
 
 df=quandl.get_table('WIKI/PRICES')
